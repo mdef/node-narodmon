@@ -1,0 +1,18 @@
+{
+    "name"         : "node-red-narodmon",
+    "version"      : "0.0.1",
+    "description"  : "node for narodmon.ru project",
+    "dependencies": {
+    },
+    "repository" : {
+        "type":"git",
+        "url":"https://github.com/node-red/node-red-nodes/tree/master/io/emoncms"
+    },
+    "license": "Apache",
+    "keywords": [ "node-red", "narodmon" ],
+    "node-red"     : {
+        "nodes": {
+            "narodmon": "narodmon/narodmon.js"
+        }
+    }
+}
